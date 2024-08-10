@@ -1,13 +1,13 @@
 {
   "name": "test-app",
   "version": "0.0.0",
- "scripts": {
+"scripts": {
   "ng": "npx ng",
-"start": "ng serve --host 0.0.0.0 --port $PORT",
-    "build": "ng build",
-  "watch": "npx ng build --watch --configuration development",
-  "test": "npx ng test",
-  "serve:ssr:test_app": "node server.ts"
+  "start": "node dist/solarpay_client/server/main.server.mjs",
+  "build": "ng build --prod",
+  "watch": "ng build --watch --configuration development",
+  "test": "ng test",
+  "serve:ssr:test_app": "node dist/solarpay_client/server/main.server.mjs"
 },
   "private": true,
   "dependencies": {

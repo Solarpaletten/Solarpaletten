@@ -3,8 +3,8 @@
   "version": "0.0.0",
  "scripts": {
   "ng": "npx ng",
-"start": "ts-node server.ts",
-  "build": "npx ng build --prod",
+"start": "ng serve --host 0.0.0.0 --port $PORT",
+    "build": "ng build --prod",
   "watch": "npx ng build --watch --configuration development",
   "test": "npx ng test",
   "serve:ssr:test_app": "node server.ts"

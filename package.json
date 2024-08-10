@@ -8,8 +8,7 @@
   "watch": "ng build --watch --configuration development",
   "test": "ng test",
   "serve:ssr:test_app": "node dist/solarpay_client/server/main.server.mjs"
-}
-,
+},
   "private": true,
   "dependencies": {
     "@angular/animations": "^18.1.2",

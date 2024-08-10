@@ -4,7 +4,7 @@
  "scripts": {
   "ng": "npx ng",
 "start": "ng serve --host 0.0.0.0 --port $PORT",
-    "build": "ng build --prod",
+    "build": "ng build",
   "watch": "npx ng build --watch --configuration development",
   "test": "npx ng test",
   "serve:ssr:test_app": "node server.ts"

@@ -7,7 +7,7 @@
   "build": "npx ng build",
   "watch": "npx ng build --watch --configuration development",
   "test": "npx ng test",
-  "serve:ssr:test_app": "node dist/test_app/server/server.mjs"
+  "serve:ssr:test_app": "node server.ts"
 },
   "private": true,
   "dependencies": {
